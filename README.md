@@ -21,5 +21,9 @@ LCM means the **L**east **C**ommon **M**ultiple and this is the smallest number 
 
 Next would be to find the smallest matching number from both lists, which would be *24*.
 
+### Condtional Probability
+
+![Conditional](https://github.com/LBruni98/Mathematics/blob/master/Conditional%20Probability.PNG)
+
 ### Integral Calculus to Solve Practical Problems Involving Area
 This is a branch of mathematics that is deals with properties and application of intergrals, which in turn is the space under a graph or area of curvature and applying this can aid in describing or finding displacement or area of said space.
