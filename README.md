@@ -6,6 +6,8 @@ This repo is dedicated towards mathematical methodologies and the sort. For math
 #### The probability of a random integer being divisible by 5
 To Calculate the probability of a random interger being divisible by 5, you'll first have to take note of each of the numbers that end in 5 and of course these numbers can be divided by 5; 5, 10, 15, 20, 25, basically the 5 times table. Numbers in between are not probable to be dividable by 5 and hence, this gives the probability 1/5.
 
+![Probability](https://github.com/LBruni98/Mathematics/blob/master/Probability.PNG)
+
 ####  How to calculate the greatest common divisor and least a common multiple of a given pair of numbers
 GCD means the **G**reatest **C**ommon **D**ivisor which is the largest number that divides any given numbers. To calculate this, let's say I needed to find the GCD of both 45 and 54. I would first need to find the divisors of these numbers. The divisors are as followed...
 * 45: 1, 3, 5, *9*, 15, 45
