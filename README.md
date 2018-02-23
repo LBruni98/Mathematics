@@ -21,7 +21,7 @@ LCM means the **L**east **C**ommon **M**ultiple and this is the smallest number 
 
 Next would be to find the smallest matching number from both lists, which would be *24*.
 
-### Condtional Probability
+### Conditional Probability
 
 ![Conditional](https://github.com/LBruni98/Mathematics/blob/master/Conditional%20Probability.PNG)
 
