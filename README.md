@@ -22,8 +22,12 @@ LCM means the **L**east **C**ommon **M**ultiple and this is the smallest number 
 Next would be to find the smallest matching number from both lists, which would be *24*.
 
 ### Conditional Probability
+Condition probability, is the probability that event A has occurred in a random experiment, taking into account that event b has definitely occured. The following formula for the rule of Conditional Probability:
 
 ![Conditional](https://github.com/LBruni98/Mathematics/blob/master/Conditional%20Probability.PNG)
+
+#### What would the probability of a 7 be when rolling two dice?
+The probability of having a seven when rolling two dice would be 6/36. The outcome was found adding two of each value of the two dice and then counting the amount of times a seven would appear. Hence, the sum for the possible outcome is six, meaning that the probability of rolling a seven when rolling two dice is 6/36 or 1/6.
 
 ### Integral Calculus to Solve Practical Problems Involving Area
 This is a branch of mathematics that is deals with properties and application of intergrals, which in turn is the space under a graph or area of curvature and applying this can aid in describing or finding displacement or area of said space.
