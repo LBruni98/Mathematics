@@ -31,9 +31,7 @@ The probability of having a seven when rolling two dice would be 6/36. The outco
 
 ### Rate of Change
 
-
-
-
+![Rate of Change 1](https://github.com/LBruni98/Mathematics/blob/master/Rate%20of%20Change%201.PNG)
 
 ### Integral Calculus to Solve Practical Problems Involving Area
 #### Calculus
