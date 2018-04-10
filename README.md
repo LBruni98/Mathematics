@@ -29,6 +29,7 @@ Condition probability, is the probability that event A has occurred in a random 
 #### What would the probability of a 7 be when rolling two dice?
 The probability of having a seven when rolling two dice would be 6/36. The outcome was found adding two of each value of the two dice and then counting the amount of times a seven would appear. Hence, the sum for the possible outcome is six, meaning that the probability of rolling a seven when rolling two dice is 6/36 or 1/6.
 
+### Vectors to Define Shapes
 ### Rate of Change
 
 ![Rate of Change 1](https://github.com/LBruni98/Mathematics/blob/master/Rate%20of%20Change%201.PNG)
