@@ -31,7 +31,13 @@ The probability of having a seven when rolling two dice would be 6/36. The outco
 
 ### Vectors to Define Shapes
 ### Rate of Change
+Rate of change describes the average rate at which a quantity changes with respect to something else. For instance, miles per hour is calculated by dividing the number of miles to the amount of time it takes to travel said miles.
 
+The average rate of change function calculates the amount of change in one quantity divided by the corresponding change in the other. We can define this rate of change of a function from a to x, shown here as:
+
+![Rate of Change](https://github.com/LBruni98/Mathematics/blob/master/formulaRC.png)
+
+One example:
 ![Rate of Change 1](https://github.com/LBruni98/Mathematics/blob/master/Rate%20of%20Change%201.PNG)
 
 ### Integral Calculus to Solve Practical Problems Involving Area
