@@ -30,6 +30,118 @@ Condition probability, is the probability that event A has occurred in a random 
 The probability of having a seven when rolling two dice would be 6/36. The outcome was found adding two of each value of the two dice and then counting the amount of times a seven would appear. Hence, the sum for the possible outcome is six, meaning that the probability of rolling a seven when rolling two dice is 6/36 or 1/6.
 
 ### Vectors to Define Shapes
+A vector describes the movement from one point to another and has two independant properties: the magnitude and direction.
+
+![Vectors](https://github.com/LBruni98/Mathematics/blob/master/Vectors.PNG)
+
+Vectors can be used to create shapes by identifying parameters. This formula demonstrates the creation of shapes by using vector methods.
+
+```html
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;"></canvas>
+
+<br>
+<button onclick="move(1)">LEFT</button>
+<button onclick="move(2)">UP</button>
+<button onclick="move(3)">DOWN</button>
+<button onclick="move(4)">RIGHT</button>
+<br>
+<button onclick="move(5)">DIAGONAL RIGHT DOWN</button>
+<button onclick="move(6)">DIAGONAL RIGHT UP</button>
+<br>
+<button onclick="move(7)">DIAGONAL LEFT DOWN</button>
+<button onclick="move(8)">DIAGONAL LEFT UP</button>
+<br>
+<button onclick="shape()">SHAPE?</button>
+
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+
+var curX=parseInt(prompt("Please enter the initial X"));;
+var curY=parseInt(prompt("Please enter the initial Y"));;
+
+function move(dir){
+var mag = parseInt(prompt("Please enter the magnitude"));
+
+if(dir==1){
+  //left
+  ctx.moveTo(curX, curY);
+  curX = curX-mag;
+  ctx.lineTo(curX, curY);  
+  alert("Vector Direction: Left / Vector Magnitude: "+mag);
+}else if(dir==2){
+  //up
+  ctx.moveTo(curX, curY);
+  curY = curY-mag;
+  ctx.lineTo(curX, curY);  
+  alert("Vector Direction: Up / Vector Magnitude: "+mag);
+}else if(dir==3){
+  //down
+  ctx.moveTo(curX, curY);
+  curY = curY+mag;
+  ctx.lineTo(curX, curY);  
+  alert("Vector Direction: Down / Vector Magnitude: "+mag);
+}else if(dir==4){
+  //right
+  ctx.moveTo(curX, curY);
+  curX = curX+mag;
+  ctx.lineTo(curX, curY);  
+  alert("Vector Direction: Right / Vector Magnitude: "+mag);
+}else if(dir==5){
+  //diagonal right down
+  ctx.moveTo(curX, curY);
+  curX = curX+mag/2;
+  curY = curY+mag/2;
+  ctx.lineTo(curX, curY);  
+  alert("Vector Direction: Diagonal Right Down / Vector Magnitude: "+mag);
+}else if(dir==6){
+  //diagonal right up
+  ctx.moveTo(curX, curY);
+  curX = curX+mag/2;
+  curY = curY-mag/2;
+  ctx.lineTo(curX, curY);  
+  alert("Vector Direction: Diagonal Right Up / Vector Magnitude: "+mag);
+}else if(dir==7){
+  //diagonal left down
+  ctx.moveTo(curX, curY);
+  curX = curX-mag/2;
+  curY = curY+mag/2;
+  ctx.lineTo(curX, curY);  
+  alert("Vector Direction: Diagonal Left Down / Vector Magnitude: "+mag);
+}else if(dir==8){
+  //diagonal left up
+  ctx.moveTo(curX, curY);
+  curX = curX-mag/2;
+  curY = curY-mag/2;
+  ctx.lineTo(curX, curY);  
+  alert("Vector Direction: Diagonal Left Up / Vector Magnitude: "+mag);
+}
+
+ctx.stroke();
+
+}
+
+function shape(){
+  var shape = prompt("Is this a shape Y/N?");
+
+  if(shape=='Y'){
+      prompt("What shape?");
+  }else {
+      alert("Keep drawing!");
+  }
+}
+
+</script>
+
+</body>
+</html>
+```
+
 ### Rate of Change
 Rate of change describes the average rate at which a quantity changes with respect to something else. For instance, miles per hour is calculated by dividing the number of miles to the amount of time it takes to travel said miles.
 
@@ -41,7 +153,18 @@ One example:
 ![Rate of Change 1](https://github.com/LBruni98/Mathematics/blob/master/Rate%20of%20Change%201.PNG)
 
 ### Integral Calculus to Solve Practical Problems Involving Area
-#### Calculus
-
-
 This is a branch of mathematics that is deals with properties and application of intergrals, which in turn is the space under a graph or area of curvature and applying this can aid in describing or finding displacement or area of said space.
+
+![Area](https://github.com/LBruni98/Mathematics/blob/master/Integral%20Calculus%20Area.PNG)
+
+Completing an average equation requires more than one area to be calculated. To do this, we need to take the above graph and place rectangles in the area to figure out each one, and helping us find out the area.
+
+![Area with Rectangles](https://github.com/LBruni98/Mathematics/blob/master/Integral%20Calculus%20Area%20Rectangles.PNG)
+
+Below is the forumla for calculating integral calculus:
+
+![Formula](https://github.com/LBruni98/Mathematics/blob/master/ICFormula.PNG)
+
+The symbol ∫, represents integration within the formula and is where the integral is found.
+
+The 'a' and 'b' letters placed on the other side of the ∫ symbol represent that the caculations are going from 'a' to 'b'. The symbol 'dx' shows the differential of the 'x' and this also showing us the variable of integration also being 'x'. The area is found from the 'x' axis curve, making 'x' the intgral.
